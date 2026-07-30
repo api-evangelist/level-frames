@@ -1,22 +1,77 @@
 aid: level-frames
 name: Level Frames
-description: Level Frames is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Level Frames is a New York City based online custom framing company founded
+  in 2014 by Josh Hubball and Damian Sowers and backed by Y Combinator (Winter 2015).
+  The company lets customers design and order handcrafted, made-to-order picture frames
+  from home, either by uploading a digital photo for printing and framing or by shipping
+  in physical artwork, posters and prints. Its catalog covers custom frames, framed
+  canvas prints, framed vinyl records, collage frames, gallery walls, personalized framed
+  photos, and framed chalkboards, whiteboards and corkboards, alongside at-home and
+  in-studio framing services. Level Frames operates a direct-to-consumer web storefront
+  and publishes no public developer program, API, or SDK surface as of this profile.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://d29mtkonxnc5fw.cloudfront.net/site_assets/level-twitter-image.jpg
 url: https://raw.githubusercontent.com/api-evangelist/level-frames/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - y-combinator
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-public-api
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Custom Framing
+- Art
+- Photo Printing
+- Home Decor
+- E-Commerce
+- Consumer
+- Direct To Consumer
+- Y Combinator
 apis: []
+common:
+- type: DomainSecurity
+  url: security/level-frames-domain-security.yml
+- type: LLMsTxt
+  url: llms/level-frames-llms.txt
+- type: Website
+  url: https://www.levelframes.com/
+- type: Blog
+  url: https://www.levelframes.com/blog
+- type: Support
+  url: https://help.levelframes.com/
+- type: HelpCenter
+  url: https://help.levelframes.com/
+- type: Pricing
+  url: https://www.levelframes.com/pricing
+- type: SignUp
+  url: https://www.levelframes.com/join
+- type: Login
+  url: https://www.levelframes.com/magic_links/new
+- type: TermsOfService
+  url: https://help.levelframes.com/placing-an-order/terms-of-service
+- type: PrivacyPolicy
+  url: https://help.levelframes.com/level-accounts/privacy-policy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
