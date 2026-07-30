@@ -1,0 +1,48 @@
+# Level Frames
+
+> Level Frames is a New York City based online custom framing company (founded 2014, Y Combinator W15) that lets customers design and order handcrafted, made-to-order picture frames from home. Level Frames publishes no public API, developer portal, or SDK — this file describes a consumer storefront, not a developer surface.
+
+## About
+
+- [Level Frames](https://www.levelframes.com/): Online custom framing storefront — upload a photo to print and frame, or ship in artwork, posters and prints for handcrafted made-to-order framing.
+- [Pricing](https://www.levelframes.com/pricing): Published pricing guide for frame sizes, materials and options.
+- [Customer gallery](https://www.levelframes.com/gallery): Examples of completed framing work.
+- [Blog](https://www.levelframes.com/blog): Company blog.
+
+## Products
+
+- Custom frames for art prints, posters and physical artwork
+- Photo printing and framing from uploaded digital images
+- Framed canvas prints
+- Framed vinyl records
+- Collage frames and gallery walls
+- Personalized framed photos
+- Framed chalkboards, whiteboards and corkboards
+- At-home (DIY assembly) and in-studio framing services
+
+## Account and support
+
+- [Join / sign up](https://www.levelframes.com/join)
+- [Log in](https://www.levelframes.com/magic_links/new)
+- [Help center](https://help.levelframes.com/): Covers custom framing, photo printing, shipping and turnaround, materials, accounts, artist partnerships, framing for businesses, and placing an order.
+- Support: support@levelframes.com / 1-800-804-2495
+
+## Legal
+
+- [Terms of service](https://help.levelframes.com/placing-an-order/terms-of-service)
+- [Privacy policy](https://help.levelframes.com/level-accounts/privacy-policy)
+
+## API status
+
+Level Frames has no public API. As of 2026-07-19 there is no developer portal,
+API reference, OpenAPI/AsyncAPI definition, SDK, CLI, MCP server, or webhook
+surface published by the company; `api.`, `developer.` and `docs.levelframes.com`
+do not resolve, `/api` redirects to the homepage, and no `/.well-known/`
+discovery documents are served. The help center's "Artist Partnerships" and
+"Framing for Businesses" programs are commercial arrangements, not API products.
+
+## API Evangelist artifacts
+
+- [apis.yml](https://raw.githubusercontent.com/api-evangelist/level-frames/refs/heads/main/apis.yml): APIs.json 0.20 profile for Level Frames.
+- [Domain security](https://raw.githubusercontent.com/api-evangelist/level-frames/refs/heads/main/security/level-frames-domain-security.yml): Probed TLS/HSTS/DNSSEC/CAA/SPF/DMARC posture.
+- [Well-known probe](https://raw.githubusercontent.com/api-evangelist/level-frames/refs/heads/main/well-known/level-frames-well-known.yml): Recorded `/.well-known/` probe results (all 404).

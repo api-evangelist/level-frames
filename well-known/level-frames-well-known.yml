@@ -1,0 +1,22 @@
+generated: '2026-07-19'
+method: searched
+source: live probe of https://www.levelframes.com/.well-known/*
+host: https://www.levelframes.com
+result: none
+notes: >-
+  No /.well-known/ discovery documents are published. Level Frames runs a
+  direct-to-consumer storefront with no developer program, so there is no
+  OAuth/OIDC discovery, API catalog, or ai-plugin surface to harvest. The
+  probe results below are recorded as-is; absence is valid data and is
+  intentionally NOT wired as a WellKnown pointer in apis.yml.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
