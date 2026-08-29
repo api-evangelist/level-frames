@@ -9,6 +9,17 @@ description: Level Frames is a New York City based online custom framing company
   photos, and framed chalkboards, whiteboards and corkboards, alongside at-home and
   in-studio framing services. Level Frames operates a direct-to-consumer web storefront
   and publishes no public developer program, API, or SDK surface as of this profile.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
