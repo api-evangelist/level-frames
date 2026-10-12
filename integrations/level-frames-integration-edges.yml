@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/level-frames/integrations
+- https://n8n.io/integrations/level-frames/
+- https://composio.dev/toolkits/level-frames
+- https://monid.ai/tools/level-frames
+checked:
+- https://composio.dev/toolkits/level-frames
+- https://monid.ai/tools/level-frames
+- https://n8n.io/integrations/level-frames/
+- https://zapier.com/apps/level-frames/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
