@@ -64,27 +64,93 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Level Frames is a New York City based online custom framing company founded in 2014 by Josh Hubball and Damian Sowers, and backed by Y Combinator (Winter 2015). Customers design and order handcrafted, made-to-order picture frames from home — either by uploading a digital photo for printing and framing, or by shipping in physical artwork, posters and prints.
+Level Frames is a New York City based online custom framing company founded in 2014 by Josh Hubball and Damian Sowers and backed by Y Combinator (Winter 2015). The company lets customers design and order handcrafted, made-to-order picture frames from home, either by uploading a digital photo for printing and framing or by shipping in physical artwork, posters and prints. Its catalog covers custom frames, framed canvas prints, framed vinyl records, collage frames, gallery walls, personalized framed photos, and framed chalkboards, whiteboards and corkboards, alongside at-home and in-studio framing services. Level Frames operates a direct-to-consumer web storefront and publishes no public developer program, API, or SDK surface as of this profile.
 
-Products span custom frames, framed canvas prints, framed vinyl records, collage frames, gallery walls, personalized framed photos, and framed chalkboards/whiteboards/corkboards, alongside at-home and in-studio framing services.
+**Areas:** Company · Custom Framing · Art · Photo Printing · Home Decor · E-Commerce · Consumer · Direct to Consumer · Y Combinator
 
-- Website: https://www.levelframes.com/
-- Help center: https://help.levelframes.com/
-- Pricing: https://www.levelframes.com/pricing
-- Blog: https://www.levelframes.com/blog
+## Level Frames on APIs.io
 
-Backed by: y-combinator
+Everything profiled for Level Frames is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/level-frames/](https://apis.io/providers/level-frames/)** — or go straight to one of the APIs or properties below.
 
-## API status
+### Published properties
 
-**Level Frames publishes no public API.** As of 2026-07-19 there is no developer portal, API reference, OpenAPI/AsyncAPI definition, SDK, CLI, MCP server, or webhook surface. `api.`, `developer.` and `docs.levelframes.com` do not resolve, `/api` redirects to the homepage, no `/.well-known/` documents are served, and no first-party packages were found on npm or PyPI. The help center's "Artist Partnerships" and "Framing for Businesses" programs are commercial arrangements, not API products.
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-This profile therefore carries identity and security-posture artifacts only.
+#### MCP servers (1)
 
-## Artifacts
+Model Context Protocol servers that expose the API to agents.
 
-| Artifact | File | Method |
-|---|---|---|
-| Domain security | `security/level-frames-domain-security.yml` | probed |
-| Well-known probe | `well-known/level-frames-well-known.yml` | searched (all 404) |
-| llms.txt | `llms/level-frames-llms.txt` | generated |
+- [level-frames](https://apis.io/servers/level-frames/level-frames/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Level Frames Domain Security](https://apis.io/security/level-frames/level-frames-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.levelframes.com/)
+- [Pricing](https://www.levelframes.com/pricing)
+- [Sign up](https://www.levelframes.com/join)
+- [Support](https://help.levelframes.com/)
+- [Blog](https://www.levelframes.com/blog)
+- [Terms of service](https://help.levelframes.com/placing-an-order/terms-of-service)
+- [Privacy policy](https://help.levelframes.com/level-accounts/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 16.0** — emerging · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 58.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 44.7 |
+
+**Agent readiness 12.2** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 13.7** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/level-frames/](https://apis.io/providers/level-frames/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Level Frames: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/level-frames/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
